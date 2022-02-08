@@ -1,4 +1,8 @@
-package edu.poniperro;
+package edu.poniperro.appcotxox;
+
+import Carrera.Carrera;
+import Conductores.Conductor;
+import Conductores.PoolConductores;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,7 +74,7 @@ public class Cotxox {
             index++;
         }
 
-        // Creamos el objeto flota de conductores, de la clase PoolConductores.
+        // Creamos el objetoflota de conductores, de la clase PoolConductores.
 
         PoolConductores conductores = new PoolConductores(poolConductores);
 
